@@ -8,9 +8,14 @@
 # Are there more lines y/n? n 
 
 # read file for appending
+my_life = open('mylife.txt', 'a')
 # while loop
 # input new line
+while True:
+    new_line = input('Enter line: ')
 # write line
 # prompt for another line
+    my_life.write(new_line + '\n')
+    prompt = input('Are there more lines? yes/no: ')
 # conditional input
 # if no then break, if input is neither yes/no then break
