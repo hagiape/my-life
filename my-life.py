@@ -6,3 +6,11 @@
 # Are there more lines y/n? y
 # Enter line: Simple is better than complex.
 # Are there more lines y/n? n 
+
+# read file for appending
+# while loop
+# input new line
+# write line
+# prompt for another line
+# conditional input
+# if no then break, if input is neither yes/no then break
