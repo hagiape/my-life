@@ -19,3 +19,9 @@ while True:
     prompt = input('Are there more lines? yes/no: ')
 # conditional input
 # if no then break, if input is neither yes/no then break
+    if prompt == 'no':
+        break
+    else:
+        if prompt != 'yes':
+            print('Only answer "yes" or "no". Please try running the program again')
+            break
